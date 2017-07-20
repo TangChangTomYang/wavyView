@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'wavyView_Example' do
+  pod 'wavyView', :path => '../'
+
+  target 'wavyView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
